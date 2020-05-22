@@ -1,6 +1,6 @@
 # Automated Assessment of Discourse Coherence
 
-Automated coherence analysis for the thesis consists of steps;
+Automated coherence analysis for the thesis consists of 3 steps;
 1. [Preprocessing](https://github.com/flying-bear/thesis/blob/master/coherence/Reembed_and_apply.ipynb) csv with [raw ELAN story transcripts](https://github.com/flying-bear/thesis/blob/master/coherence/stories.csv).
 2. [Sentence vectorization](https://github.com/flying-bear/thesis/blob/master/coherence/Reembed_and_apply.ipynb), using 
   - w2v (Mikolov et al., 2013) + SIF (Arora et al., 2017);
